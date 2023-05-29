@@ -1,8 +1,8 @@
-package com.amigoscode.mockdata;
+package in.sagnikchakraborty.mockdata;
 
 
-import com.amigoscode.beans.Car;
-import com.amigoscode.beans.Person;
+import in.sagnikchakraborty.beans.Car;
+import in.sagnikchakraborty.beans.Person;
 import com.google.common.io.Resources;
 import com.google.common.reflect.TypeToken;
 import com.google.gson.Gson;

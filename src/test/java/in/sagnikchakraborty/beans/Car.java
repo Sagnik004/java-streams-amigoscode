@@ -1,4 +1,4 @@
-package com.amigoscode.beans;
+package in.sagnikchakraborty.beans;
 
 public class Car {
 

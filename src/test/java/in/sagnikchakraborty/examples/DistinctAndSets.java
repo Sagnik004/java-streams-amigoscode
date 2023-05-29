@@ -1,4 +1,4 @@
-package com.amigoscode.examples;
+package in.sagnikchakraborty.examples;
 
 
 import org.junit.jupiter.api.Test;

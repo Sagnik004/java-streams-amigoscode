@@ -1,31 +1,26 @@
-package com.amigoscode.examples;
+package in.sagnikchakraborty.examples;
 
-import com.amigoscode.beans.Person;
-import com.amigoscode.mockdata.MockData;
+
+import in.sagnikchakraborty.beans.Person;
+import in.sagnikchakraborty.mockdata.MockData;
 import org.junit.jupiter.api.Test;
 
-import java.io.IOException;
-import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
 
-public class UnderstandingStreams {
-
+public class HowStreamsWork {
     @Test
-    void collect() throws IOException {
+    public void understandingCollect() throws Exception {
         List<String> emails = MockData.getPeople()
                 .stream()
                 .map(Person::getEmail)
-                .collect(
-                        ArrayList::new,
-                        ArrayList::add,
-                        ArrayList::addAll
-                );
+                .collect(Collectors.toList());
+
         emails.forEach(System.out::println);
     }
 
     @Test
-    public void lazy() throws Exception {
+    public void intermediateAndTerminalOperations() throws Exception {
         System.out.println(
                 MockData.getCars()
                         .stream()

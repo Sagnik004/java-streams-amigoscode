@@ -1,14 +1,12 @@
-package com.amigoscode.examples;
+package in.sagnikchakraborty.examples;
 
-import com.amigoscode.beans.Car;
-import com.amigoscode.beans.Person;
-import com.amigoscode.mockdata.MockData;
+import in.sagnikchakraborty.beans.Car;
+import in.sagnikchakraborty.beans.Person;
+import in.sagnikchakraborty.mockdata.MockData;
 import org.junit.jupiter.api.Test;
 
 import java.io.IOException;
-import java.util.Comparator;
 import java.util.List;
-import java.util.stream.Collectors;
 
 public class Sorting {
 
